@@ -1,0 +1,24 @@
+# WordPress core (installé via composer)
+/wp/
+
+# Dépendances
+/vendor/
+/node_modules/
+
+# Config locale
+wp-config.php
+.env
+
+# Uploads / contenu généré
+/wp-content/uploads/
+/wp-content/cache/
+/wp-content/upgrade/
+
+# Plugins installés via composer (hors thème custom versionné)
+/wp-content/plugins/*
+!/wp-content/plugins/.gitkeep
+
+# Divers
+*.log
+.DS_Store
+Thumbs.db
